@@ -10,7 +10,7 @@ namespace AdventAPI.Model
     {
         public int id { get; set; }
         
-        [Range(1, 25)]
+        [Range(1, 24)]
         public int Day { get; set; }
 
         public string Fact { get; set; }
